@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Forms in HTML</title>
+    </head>
+    <body>
+      <h1>Form Example</h1>
+      <form action="FakePage.html" method="POST">
+
+<!-- add text input by adding required must fill in box see pop up-->
+ Text Input: <input type="text" name="myTextInput" required/><br />
+<!-- Added radio options -->
+Radio Buttons: <br />
+<input type ="radio" name="answer" value="YES" checked />Yes<br />
+<input type ="radio" name="answer" value="NO" checked />No<br />
+<input type ="radio" name="answer" value="MAYBE" checked />Maybe<br />
+
+<!-- adding submit button and reset button on same line-->
+<input type ="submit" /><input type="reset" /><br />
+
+<!-- adding password input-->
+Password Input: <input type="password" name="userPassword" /><br />
+
+<!-- Adding checkboxes -->
+<input type="checkbox" name="myChoices" value="Soup" checked/>Soup<br />
+            <input type="checkbox" name="myChoices" value="Salad" checked/>Salad<br />
+            <input type="checkbox" name="myChoices" value="Fries" checked/>Fries<br />
+            <input type="checkbox" name="myChoices" value="Dessert" checked/>Dessert<br />
+
+<!-- Adding drop down menu -->
+            <select name="phones">
+                <option value="iPhone6">Mac OS</option>
+                <option value="GalaxyS6">Windows</option>
+                <option value="Nexus5">Linux</option>
+            </select><br />
+
+<!-- Adding description area -->
+          <textarea name="briefDescription"></textarea><br />
+
+        </form>
+        </body>
+        </html>
